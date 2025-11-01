@@ -1,0 +1,31 @@
+{
+    "name": "Trigger_0",
+    "type": "DATABASE",
+    "disabled": false,
+    "config": {
+        "collection": "Collection1",
+        "database": "Database",
+        "full_document": true,
+        "full_document_before_change": true,
+        "match": {},
+        "maximum_throughput": false,
+        "operation_types": [
+            "REPLACE",
+            "UPDATE",
+            "INSERT",
+            "DELETE"
+        ],
+        "project": {},
+        "service_name": "mongodb",
+        "skip_catchup_events": true,
+        "tolerate_resume_errors": true,
+        "unordered": false
+    },
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_Trigger_0_1761961494"
+            }
+        }
+    }
+}

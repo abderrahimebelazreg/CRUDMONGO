@@ -1,0 +1,5 @@
+{
+    "name": "Triggers",
+    "provider_region": "azure-eastus2",
+    "deployment_model": "LOCAL"
+}
